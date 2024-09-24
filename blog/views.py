@@ -8,3 +8,6 @@ def blog_home(request):
 
 def blog_post(request, id):
     return JsonResponse({"message":"Hello, This is a blog post"})
+
+def flexView(request):
+    return HttpResponse("Ok")
