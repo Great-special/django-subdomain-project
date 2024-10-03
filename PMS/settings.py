@@ -141,4 +141,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ROOT_HOSTCONF = 'PMS.hosts'
 DEFAULT_HOST = 'app'
 # PARENT_HOST = 'localhost:8000'
-PARENT_HOST = 'https://m9h-brilliant-rutherford.circumeo-apps.net/'  # For production
+PARENT_HOST = 'm9h-brilliant-rutherford.circumeo-apps.net'  # For production
