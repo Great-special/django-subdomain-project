@@ -101,9 +101,9 @@
         <ul>
             <!--Now instead of using the {% url 'home' %} notation, you can load the django-hosts template tags:-->
             <!---->
-            <li><a href="http://app.localhost:8000">Home</a></li>
-            <li><a href="http://blog.localhost:8000">Blog</a></li>
-            <li><a href="http://user.localhost:8000">User</a></li>
+            <li><a href="{% url 'index' %}">Home</a></li>
+            <li><a href="{{ blog_home_url }}">Blog</a></li>
+            <li><a href="{{ user_home_url }}">User</a></li>
             <li><a href="{{ blog_post_url }}">details</a></li>
         </ul>
     </nav>
