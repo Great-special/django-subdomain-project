@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-)4!3qo!9%d7clq)v!mh%+jq^(s3pe+82d+4e)@2v&%z)hzp(b@
 DEBUG = True
 
 ALLOWED_HOSTS = [".circumeo-apps.net", ".vercel.app",'localhost', '.localhost']
-CSRF_TRUSTED_ORIGINS = []
+CSRF_TRUSTED_ORIGINS = ['https://*.vercel.app']
 
 # Application definition
 
@@ -143,4 +143,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 ROOT_HOSTCONF = 'PMS.hosts'
 DEFAULT_HOST = 'app'
 # PARENT_HOST = 'localhost:8000'
-PARENT_HOST = 'm9h-brilliant-rutherford.circumeo-apps.net'  # For production
+PARENT_HOST = 'https://django-subdomain-lfj08eiyw-great-specials-projects.vercel.app/'  # For production
